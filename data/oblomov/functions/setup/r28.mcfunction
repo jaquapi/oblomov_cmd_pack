@@ -44,4 +44,4 @@ replaceitem block 224 5 131 container.0 minecraft:lily_pad{display:{Name:'{"text
 replaceitem block 222 5 131 container.0 daylight_detector{display:{Name:'{"text":"Cherry Pi"}',Lore:['{"text":"(Evidence) A small computer used to"}','{"text":"collect data during an "}','{"text":"undercover mission."}']}}
 
 
-give @p minecraft:arrow{display:{Name:'{"text":"Knee-breaker"}',Lore:['{"text":"(Evidence) This little arrow "}','{"text":"allowed many to bypass"}','{"text":"their responsabilities."}']}}
+# give @p minecraft:arrow{display:{Name:'{"text":"Knee-breaker"}',Lore:['{"text":"(Evidence) This little arrow "}','{"text":"allowed many to bypass"}','{"text":"their responsabilities."}']}}

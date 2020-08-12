@@ -1,4 +1,3 @@
-tell @a[gamemode=!adventure] START
 
 function oblomov:reset/reset_players
 
@@ -17,3 +16,4 @@ spawnpoint @a 284 55 117
 tp @a 278 56 117
 effect give @a minecraft:saturation 1 100
 
+tell @a[gamemode=!adventure] (Oblomov) STARTED

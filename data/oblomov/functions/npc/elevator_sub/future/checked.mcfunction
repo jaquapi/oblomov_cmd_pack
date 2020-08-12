@@ -4,3 +4,4 @@ execute unless entity @s[scores={S_elevator=200..210}] run scoreboard players se
 scoreboard players set @s T_elevator 1
 
 function oblomov:npc/elevator_sub/future/tp 
+
