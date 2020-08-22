@@ -29,8 +29,8 @@ replaceitem block 786 148 504 container.0 minecraft:paper{display:{Name:'{"text"
 # give @p minecraft:wheat_seeds{display:{Name:'{"text":"Graine chaotique"}',Lore:['{"text":"Cette graine prend vraiment toute"}','{"text":"la place, évitez de l\'avaler."}']}}
 # give @p minecraft:chorus_flower{display:{Name:'{"text":"Sentiment d\'efficacité"}',Lore:['{"text":"Avec cette plante, vous vous sentez "}','{"text":"soudain poussez des ailes mais n\'en "}','{"text":"profitez pas pour sauter dans le vide."}']}}
 replaceitem block 794 148 501 container.0 minecraft:wheat_seeds{display:{Name:'{"text":"Chaotic Seed"}',Lore:['{"text":"The seed grows all over the place,"}','{"text":"please don\'t eat it."}']}}
-replaceitem block 812 148 536 container.0 minecraft:chorus_flower{display:{Name:'{"text":"Sense of Self-Efficacy"}',Lore:['{"text":"Avec cette plante, vous vous sentez "}','{"text":"soudain poussez des ailes mais n\'en "}','{"text":"profitez pas pour sauter dans le vide."}']}}
-replaceitem block 812 148 540 container.0 minecraft:chorus_flower{display:{Name:'{"text":"Sense of Self-Efficacy"}',Lore:['{"text":"Avec cette plante, vous vous sentez "}','{"text":"soudain poussez des ailes mais n\'en "}','{"text":"profitez pas pour sauter dans le vide."}']}}
+replaceitem block 812 148 536 container.0 minecraft:chorus_flower{display:{Name:'{"text":"Sense of Self-Efficacy"}',Lore:['{"text":"You suddenly feel like reaching"}','{"text":"for the Moon. Too bad for you,"}','{"text":"there is no Moon in the world"}','{"text":"of Mumatala."}']}}
+replaceitem block 812 148 540 container.0 minecraft:chorus_flower{display:{Name:'{"text":"Sense of Self-Efficacy"}',Lore:['{"text":"You suddenly feel like reaching"}','{"text":"for the Moon. Too bad for you,"}','{"text":"there is no Moon in the world"}','{"text":"of Mumatala."}']}}
 
 
 #PAST

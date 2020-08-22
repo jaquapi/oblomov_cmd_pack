@@ -1,19 +1,19 @@
 
 #Panels
-setblock 264 56 121 minecraft:oak_wall_sign[facing=north,waterlogged=false]{Text1:'{"text":"Code reader.","color":"black"}',Text2:'{"text":"Write correct ","color":"black"}',Text3:'{"text":"numbers separa-","color":"black"}',Text4:'{"text":"-ted by dashes.","color":"black"}'}
+setblock 264 56 121 minecraft:oak_wall_sign[facing=north,waterlogged=false]{Text1:'{"text":"Code reader.","color":"black"}',Text2:'{"text":"Write correct ","color":"black"}',Text3:'{"text":"numbers separa-","color":"black"}',Text4:'{"text":"-ted by dashes.","color":"black"}'} destroy
 
-setblock 256 55 134 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Powerful oven.","color":"black"}',Text2:'{"text":"Put the ","color":"black"}',Text3:'{"text":"ingredients","color":"black"}',Text4:'{"text":"in the hopper.","color":"black"}'}
-setblock 259 56 108 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Bedroom A","color":"black"}'}
-setblock 250 56 108 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Bedroom B","color":"black"}'}
+setblock 256 55 134 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Powerful oven.","color":"black"}',Text2:'{"text":"Put the ","color":"black"}',Text3:'{"text":"ingredients","color":"black"}',Text4:'{"text":"in the hopper.","color":"black"}'} destroy
+setblock 259 56 108 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Bedroom A","color":"black"}'} destroy
+setblock 250 56 108 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Bedroom B","color":"black"}'} destroy
 
-setblock 252 41 89 minecraft:birch_wall_sign[facing=west,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°1","color":"black","bold":"true"}'}
-setblock 252 35 87 minecraft:birch_wall_sign[facing=west,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°2","color":"black","bold":"true"}'}
-setblock 260 35 83 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°3","color":"black","bold":"true"}'}
-setblock 251 35 77 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°4","color":"black","bold":"true"}'}
-setblock 251 34 77 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"The lever is","color":"black"}',Text2:'{"text":"broken ...","color":"black"}',Text3:'{"text":"I\'ll repair it","color":"black"}',Text4:'{"text":"later maybe ...","color":"black"}'}
+setblock 252 41 89 minecraft:birch_wall_sign[facing=west,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°1","color":"black","bold":"true"}'} destroy
+setblock 252 35 87 minecraft:birch_wall_sign[facing=west,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°2","color":"black","bold":"true"}'} destroy
+setblock 260 35 83 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°3","color":"black","bold":"true"}'} destroy
+setblock 251 35 77 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Control Point","color":"black","bold":"true"}',Text2:'{"text":"n°4","color":"black","bold":"true"}'} destroy
+setblock 251 34 77 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"The lever is","color":"black"}',Text2:'{"text":"broken ...","color":"black"}',Text3:'{"text":"I\'ll repair it","color":"black"}',Text4:'{"text":"later maybe ...","color":"black"}'} destroy
 
-setblock 244 36 67 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Samples","color":"black","bold":"true"}'}
-setblock 245 36 67 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Water quality","color":"black","bold":"true"}',Text2:'{"text":"analysis","color":"black","bold":"true"}'}
+setblock 244 36 67 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Samples","color":"black","bold":"true"}'} destroy
+setblock 245 36 67 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"Water quality","color":"black","bold":"true"}',Text2:'{"text":"analysis","color":"black","bold":"true"}'} destroy
 
 #RESET CHESTS
 
@@ -43,5 +43,3 @@ replaceitem block 224 5 129 container.0 minecraft:phantom_membrane{display:{Name
 replaceitem block 224 5 131 container.0 minecraft:lily_pad{display:{Name:'{"text":"Mojo leaf"}',Lore:['{"text":"(Evidence) This leaf may help you"}','{"text":"get high up in the sky."}']}}
 replaceitem block 222 5 131 container.0 daylight_detector{display:{Name:'{"text":"Cherry Pi"}',Lore:['{"text":"(Evidence) A small computer used to"}','{"text":"collect data during an "}','{"text":"undercover mission."}']}}
 
-
-# give @p minecraft:arrow{display:{Name:'{"text":"Knee-breaker"}',Lore:['{"text":"(Evidence) This little arrow "}','{"text":"allowed many to bypass"}','{"text":"their responsabilities."}']}}
