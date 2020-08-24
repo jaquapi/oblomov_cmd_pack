@@ -1,6 +1,9 @@
 #############
 #R28
 #############
+#garage
+execute positioned 231 60 73 run give @p minecraft:music_disc_11{HideFlags:63,map:116,display:{Name:'{"text":"Game Beaten"}',Lore:['{"text":"(Evidence) Poor game..."}']}} 1
+
 #house
 execute at @e[name="Teresa"] run tellraw @a[distance=..10] ["",{"text":"The creature did not appreciate being disturbed … ","color":"red"}]
 
@@ -18,8 +21,8 @@ execute positioned 2905 70 18 run tellraw @a[distance=..5]  ["",{"text":"[A dist
 
 #baths
 tellraw @a ["",{"text":"The bulldozer opened a shortcut to the top ! ","color":"green"}]
-tellraw @a[scores={bainState=1}] ["",{"text":"The crater did not appreciate this uncalled intrusion into itself ...","color":"gray"}]
-tellraw @a[scores={bainState=3}] ["",{"text":"... and you completely missed your dive. At least you are not hurt too badly.","color":"gray"}]
+tellraw @a[scores={bainState=1}] ["",{"text":"The crater did not appreciate this uncalled intrusion into itself...","color":"gray"}]
+tellraw @a[scores={bainState=3}] ["",{"text":"...and you completely missed your dive. At least you are not hurt too badly.","color":"gray"}]
 
 #tp
 tellraw @a[scores={portalIn=3}] ["",{"text":"You feel pressed very hard from all directions, you can hardly breathe. But everything's all right.","italic":true,"color":"gray"}]
@@ -28,7 +31,7 @@ execute as @a[scores={portalIn=30}] run tellraw @s ["",{"text":"It's like your w
 #temple
 tellraw @a ["",{"text":"The space rift is open !","color":"green"}]
 tellraw @a ["",{"text":"The time rift is open !","color":"green"}]
-tellraw @a ["",{"text":"This makes you completely lose track of time ...","color":"green"}]
+tellraw @a ["",{"text":"This makes you completely lose track of time...","color":"green"}]
 # tellraw @a ["",{"text":"Another day well spent ...","color":"green"}]
 
 #museum
@@ -36,9 +39,9 @@ tellraw @a[scores={portalIn=10}] ["",{"text":"You feel pressed very hard from al
 execute positioned 2998 84 -47 as @p[gamemode=!spectator] run tellraw @s ["",{"text":"You feel as light as a feather.","italic":true,"color":"gray"}]
 
 #last step
-tellraw @a ["",{"text":"The flower reacts in a peculiar way ... ","color":"dark_purple"}]
-tellraw @a ["",{"text":"You feel a subtle rupture in the air ... ","color":"gray"}]
-tellraw @a ["",{"text":"Looks like Lord Mumatala has had enough of all your bullshit ...","color":"dark_purple"}]
+tellraw @a ["",{"text":"The flower reacts in a peculiar way... ","color":"dark_purple"}]
+tellraw @a ["",{"text":"You feel a subtle rupture in the air... ","color":"gray"}]
+tellraw @a ["",{"text":"Looks like Lord Mumatala has had enough of all your bullshit...","color":"dark_purple"}]
 
 #############
 #SPACE
@@ -62,11 +65,11 @@ tellraw @a[scores={portalIn=53}] ["",{"text":"You feel dying and reborn simultan
 #past
 execute unless block -513 147 -505 minecraft:brown_shulker_box{Items:[{id:"minecraft:beetroot_seeds",tag:{display:{Name:'{"text":"Mysterious Seed"}'}}}]}
 execute if block -513 147 -505 minecraft:brown_shulker_box{Items:[{id:"minecraft:beetroot_seeds",tag:{display:{Name:'{"text":"Mysterious Seed"}'}}}]}
-tellraw @a ["",{"text":"Great, you broke the dormitory door ...","color":"green"}]
+tellraw @a ["",{"text":"Great, you broke the dormitory door...","color":"green"}]
 execute positioned 515 140 505 run tellraw @a[distance=..2] ["",{"text":"This door is locked from the inside. You will notice, however, that the hinges are not of good quality ...","color":"gray"}]
 
 #present
-execute positioned 485 135 498 run tellraw @a[distance=..3] ["",{"text":"The vegetation has completely blocked the passage ...","color":"gray"}]
+execute positioned 485 135 498 run tellraw @a[distance=..3] ["",{"text":"The vegetation has completely blocked the passage...","color":"gray"}]
 execute if block 469 134 497 minecraft:hopper{Items:[{id:"minecraft:pumpkin_seeds",tag:{display:{Name:'{"text":"Seed of Efficacy"}'}}}]}
 
 #futur
@@ -77,24 +80,25 @@ execute unless entity @a[gamemode=adventure,nbt={Inventory:[{id:"minecraft:choru
 #EPILOG
 #############
 #backwards
-
+tellraw @a ["",{"text":"!denepo etag ehT","color":"green"}]
+title @a subtitle {"text":"!ssem siht fo tuo tog uoY","color":"gold"}
 
 #r28
 # tellraw @a ["",{"text":"Vous êtes de retour à la résidence ! Cependant, quelque chose ne va pas ... ","color":"red"}]
 # tellraw @a ["",{"text":"Vous avez éveillé l'appétit meurtrier de créatures mystérieuses ! ","color":"red"}]
-tellraw @a ["",{"text":"You are back to the residence ! However, something is wrong ... ","color":"red"}]
-tellraw @a ["",{"text":"You're being chased by murderous mysterious creatures ! ","color":"red"}]
-title @a title {"text":"Escape ! ","italic":true,"color":"dark_red"}
+tellraw @a ["",{"text":"You are back to the residence! However, something is wrong... ","color":"red"}]
+tellraw @a ["",{"text":"You're being chased by murderous mysterious creatures! ","color":"red"}]
+title @a title {"text":"Escape! ","italic":true,"color":"dark_red"}
+tellraw @a[scores={epilogState=10}] ["",{"text":"You are safe! ","color":"green"}]
+tellraw @a[scores={epilogState=20}] ["",{"text":"You died in the line of duty... ","color":"dark_red"}]
+
 
 #lobby
-# tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov malgré la perte de quelques vaillants camarades. Voici quelques patisseries pour célébrer leur mémoire et votre retour dans le monde normal ... ?","color":"gold"}]
-# tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov et vous êtes rentré sains et saufs de votre mission. Voici des patisseries pour fêter votre retour dans le monde normal ... ?","color":"gold"}]
-# tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov même si vous êtes tous morts. Vos collègues ne manqueront pas de manger quelques patisseries en votre mémoire ... ","color":"gold"}]
-title @a title [{"text":"Number of evidence found : ","color":"gold"},{"score":{"objective":"scoreBonusF","name":"*"},"color":"gold"}]
+title @a title [{"text":"Evidence found : ","color":"gold"},{"score":{"objective":"scoreBonusF","name":"*"},"color":"gold"}]
 execute if score @p theEndTick matches 100 run title @a subtitle {"text":"out of 13","color":"gold"}
-tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov malgré la perte de quelques vaillants camarades. Voici quelques patisseries pour célébrer leur mémoire et votre retour dans le monde normal ... ?","color":"gold"}]
-tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov et vous êtes rentré sains et saufs de votre mission. Voici des patisseries pour fêter votre retour dans le monde normal ... ?","color":"gold"}]
-tellraw @a ["",{"text":"Bravo, inspecteurs ! Vous avez percé à jour les agissements de l'Eglise d'Oblomov même si vous êtes tous morts. Vos collègues ne manqueront pas de manger quelques patisseries en votre mémoire ... ","color":"gold"}]
+tellraw @a ["",{"text":"Well done, detectives! You have brought to light the actions of the Oblomovian Church despite the loss of some valiant comrades. Here are some pastries to celebrate their memory and your return to the normal world... ?","color":"gold"}]
+tellraw @a ["",{"text":"Well done, detectives! You have brought the actions of the Oblomovian Church to light and you have returned safe and sound from your mission. Here are some pastries to celebrate your return to the normal world... ?","color":"gold"}]
+tellraw @a ["",{"text":"Well done, detectives! You've uncovered the workings of the Oblomovian Church even though you're all dead. Your colleagues won't fail to eat some pastries in your memory...","color":"gold"}]
 
 #############
 #NPC

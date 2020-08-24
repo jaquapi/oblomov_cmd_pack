@@ -13,6 +13,10 @@ execute if entity @a[scores={ileState=1},tag=!anti_trig] run function oblomov:np
 execute if entity @a[scores={ileState=0},tag=anti_trig] run function oblomov:npc/anti_sub/unready
 
 #Ready to go ?
+execute if entity @a[scores={S_guard=10,T_guard=2}] run scoreboard players set @a T_guard 2
+execute if entity @a[scores={S_guard=10,T_clerk=2}] run scoreboard players set @a T_clerk 2
+execute if entity @a[scores={S_guard=10,T_leader=2}] run scoreboard players set @a T_leader 2
+
 execute if entity @a[scores={S_guard=10,T_guard=-1}] run function oblomov:npc/anti_sub/ready_guard
 execute if entity @a[scores={S_guard=10,T_clerk=-1}] run function oblomov:npc/anti_sub/ready_clerk
 execute if entity @a[scores={S_guard=10,T_leader=-1}] run function oblomov:npc/anti_sub/ready_leader
