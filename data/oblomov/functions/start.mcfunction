@@ -3,6 +3,11 @@ function oblomov:reset/reset_players
 
 function oblomov:reset/reset_cmd_vars
 
+#PATCH 1.3
+function npcinteract:reset
+setblock 2754 84 21 air
+setblock 2754 84 21 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"text":""}',Text1:'{"text":"Mini bulldozer"}'}
+
 #adv
 advancement revoke @a everything
 advancement grant @a only oblomov:root

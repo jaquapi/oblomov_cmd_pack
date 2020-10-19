@@ -50,7 +50,7 @@ setblock -488 142 -516 minecraft:birch_wall_sign[facing=south,waterlogged=false]
 
 
 #B2
-setblock 470 134 497 minecraft:jungle_wall_sign[facing=east,waterlogged=false]{Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"extra":[{"text":"for rare plants"}],"text":""}',Text1:'{"extra":[{"text":"INCUBATOR"}],"text":""}'}
+setblock 470 134 497 minecraft:jungle_wall_sign[facing=east,waterlogged=false]{Color:"black",Text4:'{"text":""}',Text3:'{"text":""}',Text2:'{"extra":[{"text":"for rare plants"}],"text":""}',Text1:'{"extra":[{"text":"INCUBATOR"}],"text":""}'} destroy
 setblock -499 136 -513 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text1:'{"text":"--------"}',Text2:'{"text":"Basement"}',Text3:'{"text":"#2"}',Text4:'{"text":"--------"}'} destroy
 setblock -504 136 -511 minecraft:birch_wall_sign[facing=east,waterlogged=false]{Text1:'{"text":"Hydroponic","color":"white","bold":"true"}',Text2:'{"text":"crops","color":"white","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":""}'} destroy
 setblock -506 136 -497 minecraft:birch_wall_sign[facing=west,waterlogged=false]{Text1:'{"text":"Water","color":"white"}',Text2:'{"text":"recycling","color":"white"}',Text3:'{"text":"facilities","color":"white"}',Text4:'{"text":"KEEP OUT!","color":"white","bold":"true"}'} destroy

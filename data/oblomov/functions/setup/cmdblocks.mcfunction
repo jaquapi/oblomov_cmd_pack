@@ -3,6 +3,7 @@
 #############
 #garage
 execute positioned 231 60 73 run give @p minecraft:music_disc_11{HideFlags:63,map:116,display:{Name:'{"text":"Game Beaten"}',Lore:['{"text":"(Evidence) Poor game..."}']}} 1
+tellraw @a ["",{"text":"That was a joke, you've just found a piece of evidence, fat chance!","color":"gray"}]
 
 #house
 execute at @e[name="Teresa"] run tellraw @a[distance=..10] ["",{"text":"The creature did not appreciate being disturbed … ","color":"red"}]

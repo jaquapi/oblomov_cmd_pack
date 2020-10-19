@@ -1,3 +1,4 @@
+#only do it one time
 
 function oblomov:setup/lobby
 function oblomov:setup/r28

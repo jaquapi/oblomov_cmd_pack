@@ -12,6 +12,7 @@ scoreboard players set @a teresaKillStep 0
 scoreboard players set @a endOfWorld 0
 
 #Ile
+scoreboard players set @a tickFall 0
 scoreboard players set @a jourSemaine 0
 scoreboard players set @a portalIn 0
 scoreboard players set @a mongolAv 0
@@ -23,6 +24,9 @@ scoreboard players set @a bainState 0
 scoreboard players set @a bainTick 0
 scoreboard players set @a scoreRituel 0
 scoreboard players set @a sheepKill 0
+
+scoreboard players set @a tickDay 0
+scoreboard players set @a doorBreak 0
 
 #Time
 scoreboard players set @a talkOrdo 0
